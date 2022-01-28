@@ -100,4 +100,3 @@ Tulsa	1441.0
 Virginia Beach	1093.35
 Washington	1481.72
 Wichita	1894.27
-Winston–Salem	2293.1600000000003
