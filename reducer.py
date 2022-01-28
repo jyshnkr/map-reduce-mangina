@@ -1,23 +1,26 @@
-import this
-
-
+# JayaShankar's Reduce Function
 k = open("sortOutput01.txt", "r")  # open file, read only
 t = open("reduceOutput01.txt", "w")  # open file, write
-lines = k.readlines()
 
-for line in lines:
-   data = line.strip().split('\t')
-   store, amount = data
+thisKey = ""
+thisValue = 0.0
 
-   if store != thisKey:
-       if thisKey:
-           # output the last key value pair result
-           t.write(thisKey + '\t' + str(thisValue)+'\n')
-
+for line in k:
+    data = line.strip().split('\t')
+    store, amount = data
+    
+    if store != thisKey:
+        if thisKey:
+            # output the last key value pair result
+            t.write(thisKey + '\t' + str(thisValue)+'\n')
+        
         # start over when changing keys
-       thisKey = store
-       thisValue = 0.0
-   thisValue += float(amount)
+        thisKey = store
+        thisValue = 0.0
+    # apply the aggregation function
+    thisValue += float(amount)
+
+t.write(thisKey + '\t' + str(thisValue)+'\n')
 
 k.close()
 t.close()
