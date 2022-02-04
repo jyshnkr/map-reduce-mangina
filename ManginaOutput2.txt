@@ -1,0 +1,32 @@
+Australia  	 1
+Azerbaijan  	 2
+Brazil  	 8
+Bulgaria  	 1
+Canada  	 10
+China  	 13
+Czech Republic  	 1
+Denmark  	 3
+Estonia  	 1
+Finland  	 5
+France  	 22
+Germany  	 24
+Greece  	 1
+Italy  	 4
+Japan  	 32
+Malaysia  	 1
+Mexico  	 2
+Netherlands  	 10
+None  	 47
+Norway  	 1
+Poland  	 1
+Portugal  	 2
+Russian Federation  	 11
+Saudi Arabia  	 3
+Singapore  	 1
+Spain  	 3
+Sweden  	 9
+Thailand  	 1
+Top_Country  	 1
+United Kingdom  	 18
+United States  	 238
+Viet Nam  	 1
