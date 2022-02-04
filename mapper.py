@@ -1,6 +1,6 @@
 # JayaShankar's Mapper Function
 f = open("purchasedata.txt","r")
-o = open("output1.txt","w")           # open file, read-only
+o = open("mapOutput01.txt","w")           # open file, read-only
 for line in f:  
     outputList = line.strip().split("    ")    # count the spaces!
     print (outputList   )
