@@ -1,4 +1,5 @@
 # map-reduce-mangina
+Dataset URL : https://www.kaggle.com/rushikeshhiray/esport-earnings
 
 ## DataSet Details
 The Dataset contains the information about Top earnings of Various ESport Games in Top countries.
