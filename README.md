@@ -14,11 +14,11 @@ I have processed the raw data using the Mapping technique and mapped two columns
 
 > For Mapping :
 
-> ```cat ESport_Earnings.csv | Python 01mapper.py > ManginaOutput1.txt```
+```cat ESport_Earnings.csv | Python 01mapper.py > ManginaOutput1.txt```
 
 > For Reducing:
 
-> ```cat ESport_Earnings.csv | Python 01mapper.py | sort | Python 01reducer.py > ManginaOutput2.txt```
+```cat ESport_Earnings.csv | Python 01mapper.py | sort | Python 01reducer.py > ManginaOutput2.txt```
 
 ## Chart
 ![Picture1](https://user-images.githubusercontent.com/79549340/152569637-956453e5-85b2-42f2-94e2-7ffc4fd9a0b5.png)
